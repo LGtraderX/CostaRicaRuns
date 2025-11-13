@@ -14,7 +14,17 @@ export default function Home() {
         <div className="container">
           <nav className="nav">
             <a href="#inicio" className="logo">
-              <div className="logo-icon">CR</div>
+              <img
+                src="/logo.png"
+                alt="CostaRicaRuns logo"
+                style={{
+                  width: "42px",
+                  height: "42px",
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                  boxShadow: "0 4px 10px rgba(0, 0, 0, 0.15)"
+                }}
+              />
               <span>CostaRicaRuns</span>
             </a>
             <div className="nav-links">
