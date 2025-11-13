@@ -1,5 +1,6 @@
 const WHATSAPP_LINK = "https://wa.me/19083431845";
-const EMAIL = "info@costaricaruns.com";
+const EMAIL = "costaricaruns2025@gmail.com";         // Email principal
+const OWNER_EMAIL = "nblanco1968@gmail.com";         // Email secundario
 const FACEBOOK = "https://www.facebook.com/libertystorecutris";
 const MESSENGER = "https://m.me/libertystorecutris";
 
@@ -295,29 +296,52 @@ export default function Home() {
               <div className="contact-details">
                 <p>
                   <strong>WhatsApp:</strong>{" "}
-                  <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={WHATSAPP_LINK}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     +1 908 343 1845
                   </a>
                 </p>
                 <p>
                   <strong>Messenger:</strong>{" "}
-                  <a href={MESSENGER} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={MESSENGER}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Liberty Store (Costa Rica)
                   </a>
                 </p>
                 <p>
                   <strong>Facebook:</strong>{" "}
-                  <a href={FACEBOOK} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={FACEBOOK}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Liberty Store
                   </a>
                 </p>
                 <p>
-                  <strong>Email:</strong>{" "}
+                  <strong>Email principal:</strong>{" "}
                   <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+                </p>
+                <p>
+                  <strong>Email administración:</strong>{" "}
+                  <a href={`mailto:${OWNER_EMAIL}`}>{OWNER_EMAIL}</a>
                 </p>
               </div>
 
-              <div style={{ marginTop: "10px", display: "flex", gap: "8px", flexWrap: "wrap" }}>
+              <div
+                style={{
+                  marginTop: "10px",
+                  display: "flex",
+                  gap: "8px",
+                  flexWrap: "wrap"
+                }}
+              >
                 <a
                   href={WHATSAPP_LINK}
                   className="btn btn-primary"
@@ -346,11 +370,19 @@ export default function Home() {
           <p>© {year} CostaRicaRuns. Todos los derechos reservados.</p>
           <p>
             Sitio web operado por Liberty Store ·{" "}
-            <a href={FACEBOOK} target="_blank" rel="noopener noreferrer">
+            <a
+              href={FACEBOOK}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Facebook
             </a>{" "}
             ·{" "}
-            <a href={MESSENGER} target="_blank" rel="noopener noreferrer">
+            <a
+              href={MESSENGER}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Messenger
             </a>
           </p>
