@@ -1,6 +1,6 @@
 const WHATSAPP_LINK = "https://wa.me/19083431845";
-const EMAIL = "costaricaruns2025@gmail.com"; // Email principal
-const OWNER_EMAIL = "nblanco1968@gmail.com"; // Email secundario
+const EMAIL = "costaricaruns2025@gmail.com"; 
+const OWNER_EMAIL = "nblanco1968@gmail.com"; 
 const FACEBOOK = "https://www.facebook.com/libertystorecutris";
 const MESSENGER = "https://m.me/libertystorecutris";
 
@@ -18,12 +18,11 @@ export default function Home() {
                 src="/logo.png"
                 alt="CostaRicaRuns logo"
                 style={{
-                  height: "44px",
+                  height: "65px",
                   width: "auto",
                   objectFit: "contain",
                 }}
               />
-              <span>CostaRicaRuns</span>
             </a>
 
             <div className="nav-links">
@@ -61,8 +60,9 @@ export default function Home() {
               </h1>
 
               <p className="hero-subtitle">
-                Servicio familiar con 2 viajes al mes desde Estados Unidos. Tú compras online,
-                nosotros traemos tus paquetes y los entregamos en Costa Rica.
+                Servicio familiar con 2 viajes al mes desde Estados Unidos. Tú
+                compras online, nosotros traemos tus paquetes y los entregamos
+                en Costa Rica.
               </p>
 
               <div className="hero-actions">
@@ -148,21 +148,24 @@ export default function Home() {
               <div className="step-number">1</div>
               <div className="step-title">Envíanos el enlace</div>
               <p className="step-text">
-                Comparte el link del producto que quieres comprar en Amazon, tienda online o web.
+                Comparte el link del producto que quieres comprar en Amazon,
+                tienda online o web en USA.
               </p>
             </div>
 
             <div className="step-card">
               <div className="step-number">2</div>
               <div className="step-title">Cotizamos el envío</div>
-              <p className="step-text">Te indicamos el precio por libra y el costo total estimado.</p>
+              <p className="step-text">
+                Te indicamos el precio por libra y el costo total estimado.
+              </p>
             </div>
 
             <div className="step-card">
               <div className="step-number">3</div>
               <div className="step-title">Compra o envía a nuestra dirección</div>
               <p className="step-text">
-                Puedes enviar a nuestra dirección en USA o nosotros lo compramos por ti.
+                Puedes comprar tú mismo o enviarlo a nuestra dirección en USA.
               </p>
             </div>
 
@@ -183,7 +186,7 @@ export default function Home() {
           <div className="section-header">
             <h2 className="section-title">Tarifas y condiciones</h2>
             <p className="section-subtitle">
-              Precios claros y sin sorpresas. Confirmamos el monto antes del viaje.
+              Precios claros y sin sorpresas.
             </p>
           </div>
 
@@ -191,23 +194,23 @@ export default function Home() {
             <div className="card">
               <h3>Tarifa por libra*</h3>
               <div className="price-highlight">$12 / lb</div>
-              <p className="price-note">*Tarifa base — puedes ajustarla cuando quieras.</p>
+              <p className="price-note">*Puedes ajustarla cuando quieras.</p>
 
               <ul className="list-check">
-                <li>Transporte USA → Costa Rica en maleta</li>
+                <li>Transporte en maleta USA → Costa Rica</li>
                 <li>Ideal para ropa y electrónicos pequeños</li>
-                <li>Cotización por WhatsApp o Messenger</li>
+                <li>Cotización previa por WhatsApp o Messenger</li>
               </ul>
             </div>
 
             <div className="card">
               <h3>Servicio de compra</h3>
-              <p className="small">Si quieres que compremos por ti:</p>
+              <p className="small">Si deseas que compremos por ti:</p>
 
               <ul className="list-check">
                 <li>Comisión sugerida del 8%</li>
                 <li>Pago adelantado o contra comprobante</li>
-                <li>Enviamos factura y seguimiento</li>
+                <li>Factura y seguimiento incluido</li>
               </ul>
             </div>
           </div>
@@ -220,7 +223,7 @@ export default function Home() {
           <div className="section-header">
             <h2 className="section-title">Fechas de viaje y cortes</h2>
             <p className="section-subtitle">
-              Viajamos dos veces al mes. Tus compras se programan al siguiente viaje disponible.
+              Organizamos tus compras al próximo viaje disponible.
             </p>
           </div>
 
@@ -228,21 +231,19 @@ export default function Home() {
             <div className="card">
               <div className="badge-soft">Frecuencia</div>
               <h3>2 viajes al mes</h3>
-              <p className="small">Servicio quincenal programado.</p>
+              <p className="small">Servicio quincenal garantizado.</p>
             </div>
 
             <div className="card">
               <div className="badge-soft">Cortes</div>
               <h3>Día 10 y 25</h3>
-              <p className="small">Después del corte pasa al próximo viaje.</p>
+              <p className="small">Pedidos después del corte → siguiente viaje.</p>
             </div>
 
             <div className="card">
               <div className="badge-soft">Capacidad</div>
               <h3>300–400 lb</h3>
-              <p className="small">
-                Dependiendo de número de maletas y aerolínea.
-              </p>
+              <p className="small">2 viajeros · varias maletas.</p>
             </div>
           </div>
         </div>
@@ -257,7 +258,7 @@ export default function Home() {
 
           <div className="faq-grid">
             <div className="faq-item">
-              <div className="faq-q">¿Qué productos pueden traer?</div>
+              <div className="faq-q">¿Qué pueden traer?</div>
               <div className="faq-a">
                 Ropa, zapatos, accesorios, electrónicos pequeños y artículos de hogar.
               </div>
@@ -329,7 +330,14 @@ export default function Home() {
                 </p>
               </div>
 
-              <div style={{ marginTop: "10px", display: "flex", gap: "8px", flexWrap: "wrap" }}>
+              <div
+                style={{
+                  marginTop: "10px",
+                  display: "flex",
+                  gap: "8px",
+                  flexWrap: "wrap",
+                }}
+              >
                 <a href={WHATSAPP_LINK} className="btn btn-primary" target="_blank">
                   WhatsApp
                 </a>
