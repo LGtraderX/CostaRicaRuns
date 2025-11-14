@@ -12,15 +12,17 @@ export default function Home() {
       {/* NAVBAR */}
       <header className="header">
         <div className="container">
-          <nav className="nav">
+          <nav className="nav" style={{ alignItems: "center", minHeight: "110px" }}>
             <a href="#inicio" className="logo">
               <img
                 src="/logo.png"
                 alt="CostaRicaRuns logo"
                 style={{
-                  height: "65px",
+                  height: "90px",
                   width: "auto",
                   objectFit: "contain",
+                  marginTop: "5px",
+                  marginBottom: "5px",
                 }}
               />
             </a>
@@ -60,9 +62,8 @@ export default function Home() {
               </h1>
 
               <p className="hero-subtitle">
-                Servicio familiar con 2 viajes al mes desde Estados Unidos. Tú
-                compras online, nosotros traemos tus paquetes y los entregamos
-                en Costa Rica.
+                Servicio familiar con 2 viajes al mes desde Estados Unidos. Tú compras online,
+                nosotros traemos tus paquetes y los entregamos en Costa Rica.
               </p>
 
               <div className="hero-actions">
@@ -173,7 +174,7 @@ export default function Home() {
               <div className="step-number">4</div>
               <div className="step-title">Viajamos y entregamos</div>
               <p className="step-text">
-                Llevamos tus compras y coordinamos la entrega en Costa Rica.
+                Llevamos tus compras a Costa Rica y coordinamos la entrega.
               </p>
             </div>
           </div>
@@ -186,7 +187,7 @@ export default function Home() {
           <div className="section-header">
             <h2 className="section-title">Tarifas y condiciones</h2>
             <p className="section-subtitle">
-              Precios claros y sin sorpresas.
+              Precios claros, simples y sin sorpresas.
             </p>
           </div>
 
@@ -194,12 +195,14 @@ export default function Home() {
             <div className="card">
               <h3>Tarifa por libra*</h3>
               <div className="price-highlight">$12 / lb</div>
-              <p className="price-note">*Puedes ajustarla cuando quieras.</p>
+              <p className="price-note">
+                *Tarifa base. Puedes ajustarla cuando quieras.
+              </p>
 
               <ul className="list-check">
                 <li>Transporte en maleta USA → Costa Rica</li>
-                <li>Ideal para ropa y electrónicos pequeños</li>
-                <li>Cotización previa por WhatsApp o Messenger</li>
+                <li>Ideal para ropa, zapatos y artículos pequeños</li>
+                <li>Cotización personalizada por WhatsApp o Messenger</li>
               </ul>
             </div>
 
@@ -210,7 +213,7 @@ export default function Home() {
               <ul className="list-check">
                 <li>Comisión sugerida del 8%</li>
                 <li>Pago adelantado o contra comprobante</li>
-                <li>Factura y seguimiento incluido</li>
+                <li>Incluye factura y seguimiento</li>
               </ul>
             </div>
           </div>
@@ -223,7 +226,7 @@ export default function Home() {
           <div className="section-header">
             <h2 className="section-title">Fechas de viaje y cortes</h2>
             <p className="section-subtitle">
-              Organizamos tus compras al próximo viaje disponible.
+              Organizamos tus pedidos al próximo viaje disponible.
             </p>
           </div>
 
@@ -237,13 +240,13 @@ export default function Home() {
             <div className="card">
               <div className="badge-soft">Cortes</div>
               <h3>Día 10 y 25</h3>
-              <p className="small">Pedidos después del corte → siguiente viaje.</p>
+              <p className="small">Pedidos después → siguiente viaje.</p>
             </div>
 
             <div className="card">
               <div className="badge-soft">Capacidad</div>
               <h3>300–400 lb</h3>
-              <p className="small">2 viajeros · varias maletas.</p>
+              <p className="small">Dependiendo de maletas y aerolínea.</p>
             </div>
           </div>
         </div>
@@ -260,21 +263,21 @@ export default function Home() {
             <div className="faq-item">
               <div className="faq-q">¿Qué pueden traer?</div>
               <div className="faq-a">
-                Ropa, zapatos, accesorios, electrónicos pequeños y artículos de hogar.
+                Ropa, zapatos, accesorios, electrónicos pequeños, artículos de hogar y más.
               </div>
             </div>
 
             <div className="faq-item">
               <div className="faq-q">¿Cuánto tarda?</div>
               <div className="faq-a">
-                7–20 días desde que llega a nuestra dirección en USA.
+                Entre 7 y 20 días desde que llega a nuestra dirección en USA.
               </div>
             </div>
 
             <div className="faq-item">
               <div className="faq-q">¿Formas de pago?</div>
               <div className="faq-a">
-                Colones, dólares, SINPE, Zelle, CashApp, transferencia.
+                Colones, dólares, SINPE, Zelle, CashApp y transferencia.
               </div>
             </div>
           </div>
@@ -287,7 +290,7 @@ export default function Home() {
           <div className="section-header">
             <h2 className="section-title">Contacto y pedidos</h2>
             <p className="section-subtitle">
-              Escríbenos por WhatsApp o Messenger para cotizar tu envío.
+              Escríbenos para cotizar tu envío.
             </p>
           </div>
 
