@@ -12,17 +12,24 @@ export default function Home() {
       {/* NAVBAR */}
       <header className="header">
         <div className="container">
-          <nav className="nav" style={{ alignItems: "center", minHeight: "110px" }}>
-            <a href="#inicio" className="logo">
+          <nav
+            className="nav"
+            style={{
+              alignItems: "center",
+              minHeight: "140px",
+              paddingTop: "10px",
+              paddingBottom: "10px",
+            }}
+          >
+            <a href="#inicio" className="logo" style={{ display: "flex", alignItems: "center" }}>
               <img
                 src="/logo.png"
                 alt="CostaRicaRuns logo"
                 style={{
-                  height: "90px",
+                  height: "100%",
+                  maxHeight: "120px",
                   width: "auto",
                   objectFit: "contain",
-                  marginTop: "5px",
-                  marginBottom: "5px",
                 }}
               />
             </a>
