@@ -1,6 +1,6 @@
 const WHATSAPP_LINK = "https://wa.me/19083431845";
-const EMAIL = "costaricaruns2025@gmail.com";
-const OWNER_EMAIL = "nblanco1968@gmail.com";
+const EMAIL = "costaricaruns2025@gmail.com"; 
+const OWNER_EMAIL = "nblanco1968@gmail.com"; 
 const FACEBOOK = "https://www.facebook.com/libertystorecutris";
 const MESSENGER = "https://m.me/libertystorecutris";
 
@@ -13,7 +13,7 @@ export default function Home() {
       <header className="header">
         <div className="container">
           <nav className="nav">
-            <a href="#inicio" className="logo logo-wrapper">
+            <a href="#inicio" className="logo-wrapper">
               <img
                 src="/logo.png"
                 alt="CostaRicaRuns logo"
@@ -33,7 +33,6 @@ export default function Home() {
               className="btn btn-primary nav-cta"
               href={WHATSAPP_LINK}
               target="_blank"
-              rel="noopener noreferrer"
             >
               WhatsApp
             </a>
@@ -56,9 +55,9 @@ export default function Home() {
               </h1>
 
               <p className="hero-subtitle">
-                Servicio familiar con 2 viajes al mes desde Estados Unidos. Tú
-                compras online, nosotros traemos tus paquetes y los entregamos
-                en Costa Rica.
+                Servicio familiar con viajes constantes desde Estados Unidos.
+                Tú compras online, nosotros traemos tus paquetes y los 
+                entregamos en Costa Rica.
               </p>
 
               <div className="hero-actions">
@@ -66,7 +65,6 @@ export default function Home() {
                   href={WHATSAPP_LINK}
                   className="btn btn-primary"
                   target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Cotizar por WhatsApp
                 </a>
@@ -75,17 +73,9 @@ export default function Home() {
                   href={MESSENGER}
                   className="btn btn-outline"
                   target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Chatear por Messenger
                 </a>
-              </div>
-
-              <div className="hero-meta">
-                <span>
-                  <span className="dot" /> 2 viajes al mes · 2 personas
-                </span>
-                <span>Pago en dólares o colones</span>
               </div>
             </div>
 
@@ -94,18 +84,6 @@ export default function Home() {
               <div className="hero-card-title">Capacidad y viajes</div>
 
               <div className="hero-card-grid">
-                <div className="hero-stat">
-                  <div className="hero-stat-label">Viajes al mes</div>
-                  <div className="hero-stat-value">2</div>
-                  <div className="small">Servicio quincenal</div>
-                </div>
-
-                <div className="hero-stat">
-                  <div className="hero-stat-label">Personas viajando</div>
-                  <div className="hero-stat-value">2</div>
-                  <div className="small">Más maletas · Más libras</div>
-                </div>
-
                 <div className="hero-stat">
                   <div className="hero-stat-label">Capacidad total</div>
                   <div className="hero-stat-value">300–400 lb</div>
@@ -169,7 +147,7 @@ export default function Home() {
               <div className="step-number">4</div>
               <div className="step-title">Viajamos y entregamos</div>
               <p className="step-text">
-                Llevamos tus compras a Costa Rica y coordinamos la entrega.
+                Llevamos tus compras y coordinamos la entrega en Costa Rica.
               </p>
             </div>
           </div>
@@ -188,27 +166,21 @@ export default function Home() {
 
           <div className="tarifas-grid">
             <div className="card">
-              <h3>Tarifa por libra*</h3>
+              <h3>Tarifa por libra</h3>
               <div className="price-highlight">$12 / lb</div>
-              <p className="price-note">
-                *Tarifa base. Puedes ajustarla cuando quieras.
-              </p>
 
               <ul className="list-check">
                 <li>Transporte en maleta USA → Costa Rica</li>
-                <li>Ideal para ropa, zapatos y artículos pequeños</li>
-                <li>Cotización personalizada por WhatsApp o Messenger</li>
+                <li>Ideal para ropa y artículos pequeños</li>
+                <li>Cotización por WhatsApp o Messenger</li>
               </ul>
             </div>
 
             <div className="card">
               <h3>Servicio de compra</h3>
-              <p className="small">Si deseas que compremos por ti:</p>
-
               <ul className="list-check">
                 <li>Comisión sugerida del 8%</li>
                 <li>Pago adelantado o contra comprobante</li>
-                <li>Incluye factura y seguimiento</li>
               </ul>
             </div>
           </div>
@@ -221,27 +193,24 @@ export default function Home() {
           <div className="section-header">
             <h2 className="section-title">Fechas de viaje y cortes</h2>
             <p className="section-subtitle">
-              Organizamos tus pedidos al próximo viaje disponible.
+              Organizamos tus pedidos según disponibilidad.
             </p>
           </div>
 
           <div className="fechas-grid">
             <div className="card">
-              <div className="badge-soft">Frecuencia</div>
-              <h3>2 viajes al mes</h3>
-              <p className="small">Servicio quincenal garantizado.</p>
+              <h3>Viajes frecuentes</h3>
+              <p className="small">Salidas constantes desde USA.</p>
             </div>
 
             <div className="card">
-              <div className="badge-soft">Cortes</div>
-              <h3>Día 10 y 25</h3>
-              <p className="small">Pedidos después → siguiente viaje.</p>
+              <h3>Cortes flexibles</h3>
+              <p className="small">Pregúntanos por WhatsApp.</p>
             </div>
 
             <div className="card">
-              <div className="badge-soft">Capacidad</div>
-              <h3>300–400 lb</h3>
-              <p className="small">Dependiendo de maletas y aerolínea.</p>
+              <h3>Capacidad</h3>
+              <p className="small">300–400 lb por viaje.</p>
             </div>
           </div>
         </div>
@@ -265,7 +234,7 @@ export default function Home() {
             <div className="faq-item">
               <div className="faq-q">¿Cuánto tarda?</div>
               <div className="faq-a">
-                Entre 7 y 20 días desde que llega a nuestra dirección en USA.
+                De 7 a 20 días desde que llega a USA.
               </div>
             </div>
 
@@ -292,56 +261,20 @@ export default function Home() {
           <div className="contact-grid">
             <div>
               <div className="contact-chip">
-                📦 Servicio familiar · 2 viajeros · 2 viajes al mes
+                📦 Servicio familiar · Entregas confiables
               </div>
 
               <div className="contact-details">
-                <p>
-                  <strong>WhatsApp:</strong>{" "}
-                  <a href={WHATSAPP_LINK} target="_blank">
-                    +1 908 343 1845
-                  </a>
-                </p>
-
-                <p>
-                  <strong>Messenger:</strong>{" "}
-                  <a href={MESSENGER} target="_blank">
-                    Liberty Store (Costa Rica)
-                  </a>
-                </p>
-
-                <p>
-                  <strong>Facebook:</strong>{" "}
-                  <a href={FACEBOOK} target="_blank">
-                    Liberty Store
-                  </a>
-                </p>
-
-                <p>
-                  <strong>Email:</strong>{" "}
-                  <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
-                </p>
-
-                <p>
-                  <strong>Admin:</strong>{" "}
-                  <a href={`mailto:${OWNER_EMAIL}`}>{OWNER_EMAIL}</a>
-                </p>
+                <p><strong>WhatsApp:</strong> <a href={WHATSAPP_LINK}>+1 908 343 1845</a></p>
+                <p><strong>Messenger:</strong> <a href={MESSENGER}>Liberty Store</a></p>
+                <p><strong>Facebook:</strong> <a href={FACEBOOK}>Liberty Store</a></p>
+                <p><strong>Email:</strong> <a href={`mailto:${EMAIL}`}>{EMAIL}</a></p>
+                <p><strong>Admin:</strong> <a href={`mailto:${OWNER_EMAIL}`}>{OWNER_EMAIL}</a></p>
               </div>
 
-              <div
-                style={{
-                  marginTop: "10px",
-                  display: "flex",
-                  gap: "8px",
-                  flexWrap: "wrap",
-                }}
-              >
-                <a href={WHATSAPP_LINK} className="btn btn-primary" target="_blank">
-                  WhatsApp
-                </a>
-                <a href={MESSENGER} className="btn btn-outline" target="_blank">
-                  Messenger
-                </a>
+              <div className="contact-buttons">
+                <a href={WHATSAPP_LINK} className="btn btn-primary">WhatsApp</a>
+                <a href={MESSENGER} className="btn btn-outline">Messenger</a>
               </div>
             </div>
           </div>
@@ -353,10 +286,9 @@ export default function Home() {
         <div className="container">
           <p>© {year} CostaRicaRuns. Todos los derechos reservados.</p>
           <p>
-            Sitio web operado por Liberty Store ·{" "}
-            <a href={FACEBOOK} target="_blank">Facebook</a>{" "}
-            ·{" "}
-            <a href={MESSENGER} target="_blank">Messenger</a>
+            Operado por Liberty Store ·{" "}
+            <a href={FACEBOOK}>Facebook</a> ·{" "}
+            <a href={MESSENGER}>Messenger</a>
           </p>
         </div>
       </footer>
