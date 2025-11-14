@@ -1,6 +1,6 @@
 const WHATSAPP_LINK = "https://wa.me/19083431845";
-const EMAIL = "costaricaruns2025@gmail.com";         // Email principal
-const OWNER_EMAIL = "nblanco1968@gmail.com";         // Email secundario
+const EMAIL = "costaricaruns2025@gmail.com"; // Email principal
+const OWNER_EMAIL = "nblanco1968@gmail.com"; // Email secundario
 const FACEBOOK = "https://www.facebook.com/libertystorecutris";
 const MESSENGER = "https://m.me/libertystorecutris";
 
@@ -18,15 +18,14 @@ export default function Home() {
                 src="/logo.png"
                 alt="CostaRicaRuns logo"
                 style={{
-                  width: "42px",
-                  height: "42px",
-                  borderRadius: "50%",
-                  objectFit: "cover",
-                  boxShadow: "0 4px 10px rgba(0, 0, 0, 0.15)"
+                  height: "44px",
+                  width: "auto",
+                  objectFit: "contain",
                 }}
               />
               <span>CostaRicaRuns</span>
             </a>
+
             <div className="nav-links">
               <a href="#como-funciona">Cómo funciona</a>
               <a href="#tarifas">Tarifas</a>
@@ -34,6 +33,7 @@ export default function Home() {
               <a href="#faq">Preguntas</a>
               <a href="#contacto">Contacto</a>
             </div>
+
             <a
               className="btn btn-primary nav-cta"
               href={WHATSAPP_LINK}
@@ -55,13 +55,14 @@ export default function Home() {
                 <span className="dot" />
                 Envíos personales USA → Costa Rica
               </div>
+
               <h1 className="hero-title">
                 Traemos tus compras de USA a Costa Rica, sin complicaciones.
               </h1>
+
               <p className="hero-subtitle">
-                Servicio familiar con 2 viajes al mes desde Estados Unidos. Tú
-                compras online, nosotros traemos tus paquetes y los entregamos
-                en Costa Rica.
+                Servicio familiar con 2 viajes al mes desde Estados Unidos. Tú compras online,
+                nosotros traemos tus paquetes y los entregamos en Costa Rica.
               </p>
 
               <div className="hero-actions">
@@ -73,6 +74,7 @@ export default function Home() {
                 >
                   Cotizar por WhatsApp
                 </a>
+
                 <a
                   href={MESSENGER}
                   className="btn btn-outline"
@@ -91,24 +93,29 @@ export default function Home() {
               </div>
             </div>
 
+            {/* HERO CARD */}
             <aside className="hero-card">
               <div className="hero-card-title">Capacidad y viajes</div>
+
               <div className="hero-card-grid">
                 <div className="hero-stat">
                   <div className="hero-stat-label">Viajes al mes</div>
                   <div className="hero-stat-value">2</div>
                   <div className="small">Servicio quincenal</div>
                 </div>
+
                 <div className="hero-stat">
                   <div className="hero-stat-label">Personas viajando</div>
                   <div className="hero-stat-value">2</div>
                   <div className="small">Más maletas · Más libras</div>
                 </div>
+
                 <div className="hero-stat">
                   <div className="hero-stat-label">Capacidad total</div>
                   <div className="hero-stat-value">300–400 lb</div>
                   <div className="small">Según aerolínea y maletas</div>
                 </div>
+
                 <div className="hero-stat">
                   <div className="hero-stat-label">Ruta</div>
                   <div className="hero-stat-value">USA → San José</div>
@@ -117,6 +124,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
               <div className="hero-badge">
                 Cupos limitados por viaje. Reserva con anticipación.
               </div>
@@ -140,31 +148,29 @@ export default function Home() {
               <div className="step-number">1</div>
               <div className="step-title">Envíanos el enlace</div>
               <p className="step-text">
-                Comparte el link del producto que quieres comprar en Amazon,
-                tienda online o web en USA.
+                Comparte el link del producto que quieres comprar en Amazon, tienda online o web.
               </p>
             </div>
+
             <div className="step-card">
               <div className="step-number">2</div>
               <div className="step-title">Cotizamos el envío</div>
-              <p className="step-text">
-                Te indicamos el precio por libra y el costo total estimado.
-              </p>
+              <p className="step-text">Te indicamos el precio por libra y el costo total estimado.</p>
             </div>
+
             <div className="step-card">
               <div className="step-number">3</div>
               <div className="step-title">Compra o envía a nuestra dirección</div>
               <p className="step-text">
-                Puedes comprar tú mismo y enviarlo a nuestra dirección en USA, o
-                nosotros lo compramos por ti.
+                Puedes enviar a nuestra dirección en USA o nosotros lo compramos por ti.
               </p>
             </div>
+
             <div className="step-card">
               <div className="step-number">4</div>
               <div className="step-title">Viajamos y entregamos</div>
               <p className="step-text">
-                Llevamos tus compras en maletas en nuestros viajes quincenales y
-                coordinamos la entrega en Costa Rica.
+                Llevamos tus compras y coordinamos la entrega en Costa Rica.
               </p>
             </div>
           </div>
@@ -177,8 +183,7 @@ export default function Home() {
           <div className="section-header">
             <h2 className="section-title">Tarifas y condiciones</h2>
             <p className="section-subtitle">
-              Precios claros y sin sorpresas. Siempre confirmamos el monto antes
-              del viaje.
+              Precios claros y sin sorpresas. Confirmamos el monto antes del viaje.
             </p>
           </div>
 
@@ -186,28 +191,24 @@ export default function Home() {
             <div className="card">
               <h3>Tarifa por libra*</h3>
               <div className="price-highlight">$12 / lb</div>
-              <p className="price-note">
-                *Tarifa de ejemplo. Puedes ajustarla después según tus costos.
-              </p>
+              <p className="price-note">*Tarifa base — puedes ajustarla cuando quieras.</p>
+
               <ul className="list-check">
                 <li>Transporte USA → Costa Rica en maleta</li>
-                <li>Ideal para ropa, zapatos y electrónicos pequeños</li>
-                <li>Cotización previa por WhatsApp o Messenger</li>
+                <li>Ideal para ropa y electrónicos pequeños</li>
+                <li>Cotización por WhatsApp o Messenger</li>
               </ul>
             </div>
 
             <div className="card">
-              <h3>Servicio de compra (opcional)</h3>
+              <h3>Servicio de compra</h3>
               <p className="small">Si quieres que compremos por ti:</p>
+
               <ul className="list-check">
-                <li>Comisión sugerida del 8% sobre el valor de la compra</li>
+                <li>Comisión sugerida del 8%</li>
                 <li>Pago adelantado o contra comprobante</li>
-                <li>Te enviamos factura, número de orden y seguimiento</li>
+                <li>Enviamos factura y seguimiento</li>
               </ul>
-              <p className="small" style={{ marginTop: "10px" }}>
-                Algunos productos pueden pagar impuestos adicionales al entrar a
-                Costa Rica. Siempre te avisamos antes de confirmar.
-              </p>
             </div>
           </div>
         </div>
@@ -219,8 +220,7 @@ export default function Home() {
           <div className="section-header">
             <h2 className="section-title">Fechas de viaje y cortes</h2>
             <p className="section-subtitle">
-              Viajamos dos veces al mes. Tus compras se programan para el
-              siguiente viaje disponible.
+              Viajamos dos veces al mes. Tus compras se programan al siguiente viaje disponible.
             </p>
           </div>
 
@@ -228,22 +228,20 @@ export default function Home() {
             <div className="card">
               <div className="badge-soft">Frecuencia</div>
               <h3>2 viajes al mes</h3>
-              <p className="small">
-                Servicio quincenal para que puedas planificar tus compras.
-              </p>
+              <p className="small">Servicio quincenal programado.</p>
             </div>
+
             <div className="card">
-              <div className="badge-soft">Cortes de pedidos</div>
-              <h3>Día 10 y 25 de cada mes</h3>
-              <p className="small">
-                Después del corte, las nuevas compras pasan al próximo viaje.
-              </p>
+              <div className="badge-soft">Cortes</div>
+              <h3>Día 10 y 25</h3>
+              <p className="small">Después del corte pasa al próximo viaje.</p>
             </div>
+
             <div className="card">
-              <div className="badge-soft">Capacidad por viaje</div>
-              <h3>300–400 lb aprox.</h3>
+              <div className="badge-soft">Capacidad</div>
+              <h3>300–400 lb</h3>
               <p className="small">
-                Dos personas viajando con varias maletas. Cupos limitados.
+                Dependiendo de número de maletas y aerolínea.
               </p>
             </div>
           </div>
@@ -259,28 +257,23 @@ export default function Home() {
 
           <div className="faq-grid">
             <div className="faq-item">
-              <div className="faq-q">¿Qué tipo de productos pueden traer?</div>
+              <div className="faq-q">¿Qué productos pueden traer?</div>
               <div className="faq-a">
-                Principalmente ropa, zapatos, accesorios, electrónicos pequeños
-                y artículos de hogar. No manejamos productos ilegales, químicos
-                peligrosos ni mercancía restringida por aerolíneas.
+                Ropa, zapatos, accesorios, electrónicos pequeños y artículos de hogar.
               </div>
             </div>
 
             <div className="faq-item">
-              <div className="faq-q">¿Cuánto tarda en llegar mi pedido?</div>
+              <div className="faq-q">¿Cuánto tarda?</div>
               <div className="faq-a">
-                Depende de la fecha del próximo viaje. En promedio, entre 7 y 20
-                días desde que el producto llega a nuestra dirección en USA.
+                7–20 días desde que llega a nuestra dirección en USA.
               </div>
             </div>
 
             <div className="faq-item">
-              <div className="faq-q">¿Cómo se realiza el pago?</div>
+              <div className="faq-q">¿Formas de pago?</div>
               <div className="faq-a">
-                Aceptamos pagos en dólares o colones. Se puede coordinar
-                transferencia bancaria, SINPE, Zelle, CashApp u otros métodos
-                según el caso.
+                Colones, dólares, SINPE, Zelle, CashApp, transferencia.
               </div>
             </div>
           </div>
@@ -306,67 +299,42 @@ export default function Home() {
               <div className="contact-details">
                 <p>
                   <strong>WhatsApp:</strong>{" "}
-                  <a
-                    href={WHATSAPP_LINK}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={WHATSAPP_LINK} target="_blank">
                     +1 908 343 1845
                   </a>
                 </p>
+
                 <p>
                   <strong>Messenger:</strong>{" "}
-                  <a
-                    href={MESSENGER}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={MESSENGER} target="_blank">
                     Liberty Store (Costa Rica)
                   </a>
                 </p>
+
                 <p>
                   <strong>Facebook:</strong>{" "}
-                  <a
-                    href={FACEBOOK}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={FACEBOOK} target="_blank">
                     Liberty Store
                   </a>
                 </p>
+
                 <p>
-                  <strong>Email principal:</strong>{" "}
+                  <strong>Email:</strong>{" "}
                   <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
                 </p>
+
                 <p>
-                  <strong>Email administración:</strong>{" "}
+                  <strong>Admin:</strong>{" "}
                   <a href={`mailto:${OWNER_EMAIL}`}>{OWNER_EMAIL}</a>
                 </p>
               </div>
 
-              <div
-                style={{
-                  marginTop: "10px",
-                  display: "flex",
-                  gap: "8px",
-                  flexWrap: "wrap"
-                }}
-              >
-                <a
-                  href={WHATSAPP_LINK}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Escribir por WhatsApp
+              <div style={{ marginTop: "10px", display: "flex", gap: "8px", flexWrap: "wrap" }}>
+                <a href={WHATSAPP_LINK} className="btn btn-primary" target="_blank">
+                  WhatsApp
                 </a>
-                <a
-                  href={MESSENGER}
-                  className="btn btn-outline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Chatear por Messenger
+                <a href={MESSENGER} className="btn btn-outline" target="_blank">
+                  Messenger
                 </a>
               </div>
             </div>
@@ -380,21 +348,9 @@ export default function Home() {
           <p>© {year} CostaRicaRuns. Todos los derechos reservados.</p>
           <p>
             Sitio web operado por Liberty Store ·{" "}
-            <a
-              href={FACEBOOK}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Facebook
-            </a>{" "}
+            <a href={FACEBOOK} target="_blank">Facebook</a>{" "}
             ·{" "}
-            <a
-              href={MESSENGER}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Messenger
-            </a>
+            <a href={MESSENGER} target="_blank">Messenger</a>
           </p>
         </div>
       </footer>
