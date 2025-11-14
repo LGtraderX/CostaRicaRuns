@@ -1,6 +1,6 @@
 const WHATSAPP_LINK = "https://wa.me/19083431845";
-const EMAIL = "costaricaruns2025@gmail.com"; 
-const OWNER_EMAIL = "nblanco1968@gmail.com"; 
+const EMAIL = "costaricaruns2025@gmail.com";
+const OWNER_EMAIL = "nblanco1968@gmail.com";
 const FACEBOOK = "https://www.facebook.com/libertystorecutris";
 const MESSENGER = "https://m.me/libertystorecutris";
 
@@ -12,25 +12,12 @@ export default function Home() {
       {/* NAVBAR */}
       <header className="header">
         <div className="container">
-          <nav
-            className="nav"
-            style={{
-              alignItems: "center",
-              minHeight: "140px",
-              paddingTop: "10px",
-              paddingBottom: "10px",
-            }}
-          >
-            <a href="#inicio" className="logo" style={{ display: "flex", alignItems: "center" }}>
+          <nav className="nav">
+            <a href="#inicio" className="logo logo-wrapper">
               <img
                 src="/logo.png"
                 alt="CostaRicaRuns logo"
-                style={{
-                  height: "100%",
-                  maxHeight: "120px",
-                  width: "auto",
-                  objectFit: "contain",
-                }}
+                className="logo-img"
               />
             </a>
 
@@ -69,8 +56,9 @@ export default function Home() {
               </h1>
 
               <p className="hero-subtitle">
-                Servicio familiar con 2 viajes al mes desde Estados Unidos. Tú compras online,
-                nosotros traemos tus paquetes y los entregamos en Costa Rica.
+                Servicio familiar con 2 viajes al mes desde Estados Unidos. Tú
+                compras online, nosotros traemos tus paquetes y los entregamos
+                en Costa Rica.
               </p>
 
               <div className="hero-actions">
